@@ -1,0 +1,21 @@
+name: swot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel
+
+  # Data
+  - earthaccess
+  - rioxarray
+  - h5netcdf
+  - geopandas
+  - dask
+
+  # Viz
+  - hvplot
+  - holoviews
+  - geoviews
+  - matplotlib
+  - seaborn
