@@ -10,7 +10,9 @@ dependencies:
   # Data
   - earthaccess
   - rioxarray
+  - xarray
   - h5netcdf
+  - cfgrib
   - geopandas
   - dask
 

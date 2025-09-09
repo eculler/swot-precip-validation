@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# Install environment
-conda env create -yq -f environment.yml
-conda activate swot
-
-# Install kernel
-python -m ipykernel install --user --name swot --display-name "Python (SWOT)"
